@@ -186,6 +186,8 @@ source "drivers/battery/Kconfig"
 
 source "drivers/sensors/Kconfig"
 
+source "drivers/fingerprint/Kconfig"
+
 source "drivers/phy/Kconfig"
 
 source "drivers/soc/Kconfig"
@@ -193,5 +195,7 @@ source "drivers/soc/Kconfig"
 source "drivers/firmware/Kconfig"
 
 source "drivers/secfilter/Kconfig"
+
+source "drivers/gator/Kconfig"
 
 endmenu

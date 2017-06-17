@@ -162,6 +162,12 @@ ifeq ($(CONFIG_SEC_E5_PROJECT),y)
 		dtb-y += msm8916-sec-e5-tfn-r02.dtb
 	else ifeq ($(CONFIG_MACH_E53G_EUR_OPEN),y)
 		dtb-y += msm8916-sec-e53g-r03.dtb
+		dtb-y += msm8916-sec-e53g-r04.dtb
+		dtb-y += msm8916-sec-e53g-r06.dtb
+		dtb-y += msm8916-sec-e53g-r07.dtb
+		dtb-y += msm8916-sec-e53g-r08.dtb
+		dtb-y += msm8916-sec-e53g-r09.dtb
+		dtb-y += msm8916-sec-e53g-r10.dtb
 	endif
 endif
 
